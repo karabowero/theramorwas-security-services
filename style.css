@@ -138,19 +138,31 @@ footer {
     }
 }
 
-.btn {
+.btn-primary {
     display: inline-block;
-    margin-top: 20px;
-    padding: 12px 25px;
-    background: #00bfff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
+    margin-top: 25px;
+    padding: 14px 32px;
+    font-size: 16px;
     font-weight: 600;
-    transition: 0.3s;
+    color: #fff;
+    background: linear-gradient(135deg, #00bfff, #0077cc);
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(0, 191, 255, 0.4);
+    transition: all 0.3s ease;
 }
 
-.btn:hover {
-    background: #009acd;
-    transform: scale(1.05);
+/* Hover effect */
+.btn-primary:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 191, 255, 0.6);
+    background: linear-gradient(135deg, #009acd, #005fa3);
 }
+
+/* Click effect */
+.btn-primary:active {
+    transform: scale(0.98);
+    box-shadow: 0 3px 10px rgba(0, 191, 255, 0.3);
+}
+
