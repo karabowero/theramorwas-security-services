@@ -138,28 +138,6 @@ footer {
     }
 }
 
-
-.btn {
-    display: inline-block;
-    padding: 14px 30px;
-    background: linear-gradient(135deg, #00e5ff, #00bcd4); /* brighter gradient */
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: bold;
-    border: none;
-    box-shadow: 0 6px 20px rgba(0, 229, 255, 0.6); /* glow effect */
-    transition: all 0.3s ease;
-}
-
-.btn:hover {
-    background: linear-gradient(135deg, #00bcd4, #0097a7);
-    transform: translateY(-3px) scale(1.03);
-    box-shadow: 0 8px 25px rgba(0, 229, 255, 0.9);
-}
-
-
-/*
 .btn {
     display: inline-block;
     padding: 14px 30px;
@@ -177,7 +155,7 @@ footer {
     background-color: #0097a7;
     transform: translateY(-2px);
 }
-*/
+
 /*
 .btn {
 			
