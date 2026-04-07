@@ -159,21 +159,21 @@ footer {
 
 .btn2 {
 			
-			align-items: center;
-			
-			padding: 14px 30px;
-			background-color: #00bfff;
-			color: white;
-			text-decoration: none;
-			border-radius: 6px;
-			font-weight: bold;
-			box-shadow: 0 4px 15px rgba(0,0,0,0.4);
-			border: 2px solid #ffffff;
-			transition: 0.3s ease;
-		} 
+	align-items: center;
 
-		.btn2:hover {
-			background-color: 
-		}
-*/
+	padding: 14px 30px;
+	background-color: #00bfff;
+	color: white;
+	text-decoration: none;
+	border-radius: 6px;
+	font-weight: bold;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+	border: 2px solid #ffffff;
+	transition: 0.3s ease;
+} 
+
+.btn2:hover {
+	background-color: 
+}
+
 
